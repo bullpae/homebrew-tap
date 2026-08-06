@@ -3,24 +3,24 @@
 class Keymander < Formula
   desc "Keyboard-driven cross-platform launcher (TUI + desktop + key-remap daemon)"
   homepage "https://github.com/bullpae/keymander-cli"
-  version "0.10.0"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bullpae/keymander-cli/releases/download/v0.10.0/keymander-portable-aarch64-apple-darwin.tar.gz"
-      sha256 "52e9366d814d1cef53ba67dce0d06f2abfb1034c9cf783fa2152f912ecb449a4"
+      url "https://github.com/bullpae/keymander-cli/releases/download/v0.12.0/keymander-portable-aarch64-apple-darwin.tar.gz"
+      sha256 "2960cc08bcd6d7628e90869668f92450dd8a191d164e7620d2427326f963971a"
     end
     on_intel do
-      url "https://github.com/bullpae/keymander-cli/releases/download/v0.10.0/keymander-portable-x86_64-apple-darwin.tar.gz"
-      sha256 "e17ee0f8859584d815b797f15e9b292125cdfa4b3b12ef69fccaf73ba972abc1"
+      url "https://github.com/bullpae/keymander-cli/releases/download/v0.12.0/keymander-portable-x86_64-apple-darwin.tar.gz"
+      sha256 "2a5f6919693edfe2564649a7388bb236e189636addf65c426094d33084043249"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/bullpae/keymander-cli/releases/download/v0.10.0/keymander-portable-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "82e9cd446241e5eab77b24ef6e9f7d2d17f4470680848da917d510e7e9397608"
+      url "https://github.com/bullpae/keymander-cli/releases/download/v0.12.0/keymander-portable-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bdb787479f4fe0a3c9479acc83a379db6137fa82d13056f5fc741461edccf48f"
     end
   end
 
