@@ -1,26 +1,26 @@
 # 자동 생성 파일 — 직접 수정하지 마세요.
-# bullpae/keymander-cli의 scripts/gen-homebrew-formula.sh가 릴리스마다 갱신합니다.
+# bullpae/keymander의 scripts/gen-homebrew-formula.sh가 릴리스마다 갱신합니다.
 class Keymander < Formula
   desc "Keyboard-driven cross-platform launcher (TUI + desktop + key-remap daemon)"
-  homepage "https://github.com/bullpae/keymander-cli"
-  version "0.16.1"
+  homepage "https://github.com/bullpae/keymander"
+  version "0.16.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bullpae/keymander-cli/releases/download/v0.16.1/keymander-portable-aarch64-apple-darwin.tar.gz"
-      sha256 "b80bfe3f6cab7d80d61bdeb4a227dcc1d2f4bcc1a419b989bb84c495728880ab"
+      url "https://github.com/bullpae/keymander/releases/download/v0.16.2/keymander-portable-aarch64-apple-darwin.tar.gz"
+      sha256 "40bf76c8c27ba0a5218e7c5ef68be16d6b6b58ee95989a1fd019b1ad56b1eec2"
     end
     on_intel do
-      url "https://github.com/bullpae/keymander-cli/releases/download/v0.16.1/keymander-portable-x86_64-apple-darwin.tar.gz"
-      sha256 "8c6b2f47919cb1bf3e91c34a249db4c16dbf3eb998a1e4a9902f5045a7275e05"
+      url "https://github.com/bullpae/keymander/releases/download/v0.16.2/keymander-portable-x86_64-apple-darwin.tar.gz"
+      sha256 "b58347a4ce6606d8ee783737b4b6cb1a1195033ffa240337ab3b357afd38f0da"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/bullpae/keymander-cli/releases/download/v0.16.1/keymander-portable-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "67821e886131e4996a215a0d4454dd030891756b89218b604934e6a93b7c17b8"
+      url "https://github.com/bullpae/keymander/releases/download/v0.16.2/keymander-portable-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "04a72e07e69ed87be5ee3b4e06290083dfd58bddf9c535a0a17e297c656a0e9c"
     end
   end
 
